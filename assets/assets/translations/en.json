@@ -1,0 +1,29 @@
+{
+    "Gral_Alert_Dialog_Confirm_Label": "Confirm",
+    "Gral_Alert_Dialog_Cancel_Label": "Cancel",
+    "Gral_Go_Back_Button_Label": "Go Back",
+    "Gral_Blank_Error_Message": "The field cannot be empty",
+    "Gral_Passwords_Dont_Match_Error_Message": "Passwords do not match",
+    "Gral_Invalid_Email_Error_Message": "Please provide a valid email address",
+
+    "Social_Media_Instagram_Label": "Instagram",
+    "Social_Media_Facebook_Label": "Facebook",
+    "Social_Media_Tiktok_Label": "TikTok",
+    "Social_Media_X_Label": "X",
+    "Social_Media_Linkedin_Label": "LinkedIn",
+    "Social_Media_Personal_Web_Label": "Website",
+    "Social_Media_Youtube_Label": "Youtube",
+    "Social_Media_Instagram_Hint": "https://www.instagram.com/yourusername",
+    "Social_Media_Facebook_Hint": "https://www.facebook.com/your.username",
+    "Social_Media_Tiktok_Hint": "https://www.tiktok.com/@yourusername",
+    "Social_Media_X_Hint": "https://x.com/yourusername",
+    "Social_Media_Linkedin_Hint": "https://www.linkedin.com/in/yourusername",
+    "Social_Media_Personal_Web_Hint": "https://www.yourwebsite.com",
+    "Social_Media_Youtube_Hint": "https://www.youtube.com/@YourUsername",
+    "Social_Media_Field_Invalid_Input": "Invalid {socialMedia} URL",
+
+    "Base_Captcha_Validation_Error_Message": "Human verification error. Please try again. If the problem persists, contact support.",
+    "Base_Captcha_Bot_Error_Message": "We couldn't confirm you're human. Please try again from a trusted browser and device.",
+    
+    "Example_Text": "Example"
+}

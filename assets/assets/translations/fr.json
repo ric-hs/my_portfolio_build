@@ -1,0 +1,29 @@
+{
+    "Gral_Alert_Dialog_Confirm_Label": "Confirmer",
+    "Gral_Alert_Dialog_Cancel_Label": "Annuler",
+    "Gral_Go_Back_Button_Label": "Retourner",
+    "Gral_Blank_Error_Message": "Le champ ne peut pas être vide",
+    "Gral_Passwords_Dont_Match_Error_Message": "Les mots de passe ne correspondent pas",
+    "Gral_Invalid_Email_Error_Message": "Veuillez fournir une adresse e-mail valide",
+
+    "Social_Media_Instagram_Label": "Instagram",
+    "Social_Media_Facebook_Label": "Facebook",
+    "Social_Media_Tiktok_Label": "TikTok",
+    "Social_Media_X_Label": "X",
+    "Social_Media_Linkedin_Label": "LinkedIn",
+    "Social_Media_Personal_Web_Label": "Site Web",
+    "Social_Media_Youtube_Label": "Youtube",
+    "Social_Media_Instagram_Hint": "https://www.instagram.com/votreutilisateur",
+    "Social_Media_Facebook_Hint": "https://www.facebook.com/votre.utilisateur",
+    "Social_Media_Tiktok_Hint": "https://www.tiktok.com/@votreutilisateur",
+    "Social_Media_X_Hint": "https://x.com/votreutilisateur",
+    "Social_Media_Linkedin_Hint": "https://www.linkedin.com/in/votreutilisateur",
+    "Social_Media_Personal_Web_Hint": "https://www.votrepage.com",
+    "Social_Media_Youtube_Hint": "https://www.youtube.com/@VotreUtilisateur",
+    "Social_Media_Field_Invalid_Input": "{socialMedia} URL invalide",
+
+    "Base_Captcha_Validation_Error_Message": "Erreur de vérification humaine. Veuillez réessayer. Si le problème persiste, contactez le support.",
+    "Base_Captcha_Bot_Error_Message": "Nous n'avons pas pu confirmer que vous êtes humain. Veuillez réessayer depuis un navigateur et un appareil de confiance.",
+    
+    "Example_Text": "Exemple"
+}
