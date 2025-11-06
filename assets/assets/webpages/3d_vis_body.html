@@ -1,0 +1,157 @@
+<head>
+
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    * body {
+      background: none;
+    }
+
+    iframe {
+      border: 0px;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    @font-face {
+      font-family: 'AVENIR';
+      src: url(https://static.wixstatic.com/ufonts/ca2f8b_7e6b465d1cc1400684c5fd0deb3c6599/woff2/file.woff2);
+    }
+
+    .container {
+      display: flex;
+      float: left;
+      align-items: flex-end;
+      justify-content: center;
+      width: 100%;
+      max-width: 960px;
+      height: 100%;
+      margin: auto;
+      background-color: #ffffff;
+    }
+
+    .modelo {
+      display: inline-block;
+      position: relative;
+      background-color: #ffffff;
+      width: 70%;
+      height: 100%;
+    }
+
+    .modeloFrame {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .topCover {
+      height: 44px;
+      width: 100%;
+      background-color: #ffffff;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+    }
+
+    .bottomCover {
+      height: 52px;
+      width: 100%;
+      background-color: #ffffff;
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+    }
+
+    .side {
+      display: inline-block;
+      position: relative;
+      width: 29%;
+      bottom: 52px;
+      background-color: #ffffff;
+    }
+
+    .material {
+      display: block;
+      background: none;
+      margin: 0px;
+      padding: 10px;
+
+    }
+
+    .encabezado {
+      display: block;
+      color: #000000;
+      font-weight: normal;
+      font-family: 'AVENIR', sans-serif;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 0px;
+      height: 21px;
+      width: 21px;
+      cursor: pointer;
+      border: 0px;
+      background-size: 100% 100%;
+    }
+
+    .btn:focus {
+      outline: solid rgb(170, 170, 170) 2px;
+      /* También ajustar en JQuery */
+    }
+
+    @media only screen and (max-width: 440px) {
+
+      .container {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      /* For mobile phones: */
+      .modelo {
+        display: block;
+        float: left;
+        width: 100%;
+        height: 100vw;
+        max-height: 460px;
+      }
+
+      .modeloFrame {
+        height: 100vw;
+        max-height: 460px;
+      }
+
+
+      .side {
+        display: block;
+        position: relative;
+        width: 100%;
+        top: -52px;
+        z-index: 2;
+        float: left;
+        background-color: #ffffff;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="modelo">
+      <div class="topCover"></div>
+      <iframe class="modeloFrame" id="api-frame" allow="autoplay; fullscreen"></iframe>
+      <div class="bottomCover"></div>
+    </div>
+
+    <div class="side" id="sections-container"></div>
+  </div>
+</body>
