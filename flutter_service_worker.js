@@ -3,6 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
+<<<<<<< HEAD
 const RESOURCES = {"flutter_bootstrap.js": "3a5b55d63e847b5d9d53e16868079860",
 "version.json": "9b818ca9511483c901bed1545384376c",
 "index.html": "729aad9255543ae09791d3c4f2d7e200",
@@ -10,11 +11,21 @@ const RESOURCES = {"flutter_bootstrap.js": "3a5b55d63e847b5d9d53e16868079860",
 "main.dart.js": "4c11afb5eb079f6fa7e05db9382bc726",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "favicon.png": "c9bddc5ab71354602c121fdc5273e3a6",
+=======
+const RESOURCES = {"flutter_bootstrap.js": "468d5f480f5e01ea8d4175d1ba76356a",
+"version.json": "9b818ca9511483c901bed1545384376c",
+"index.html": "190f64c96ce174ac26ac5c543bf82a87",
+"/": "190f64c96ce174ac26ac5c543bf82a87",
+"main.dart.js": "be1afbe8d06c2d114b2f83e5382a5da9",
+"flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+>>>>>>> origin/main
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "e2b9103aaafaf8ed9f90576c9d9a1341",
+<<<<<<< HEAD
 ".git/config": "38881ccff4dc4e249623736f3cd97a15",
 ".git/objects/61/bbca62365922f25603d3bd5e52d9bc2f7faaad": "cb5ae2b0cf88b87ae2afaa37f473252f",
 ".git/objects/61/5b42bf3cb64464d8d0994b59199b2c6fa725a9": "a007e8a2b549d0ab4af2e8fa2ec559bc",
@@ -465,6 +476,12 @@ const RESOURCES = {"flutter_bootstrap.js": "3a5b55d63e847b5d9d53e16868079860",
 "assets/NOTICES": "9508307eae6c74ea654dd6f65f114fb3",
 "assets/FontManifest.json": "c34ddbcf222e513540a95e519a3f48e1",
 "assets/AssetManifest.bin.json": "665cf0d3be544b350ea6a5e94650a27b",
+=======
+"assets/AssetManifest.json": "c869fe1c157df0565fd8c6b01accf661",
+"assets/NOTICES": "b16a16fd1425294ddc0ea3d090a44987",
+"assets/FontManifest.json": "c34ddbcf222e513540a95e519a3f48e1",
+"assets/AssetManifest.bin.json": "5e9b7a9613eea20d69fa827c56803601",
+>>>>>>> origin/main
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "33b7d9392238c04c131b6ce224e13711",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "269f971cec0d5dc864fe9ae080b19e23",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "262525e2081311609d1fdab966c82bfc",
@@ -798,11 +815,16 @@ const RESOURCES = {"flutter_bootstrap.js": "3a5b55d63e847b5d9d53e16868079860",
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.css": "5a8d0222407e388155d7d1395a75d5b9",
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
+<<<<<<< HEAD
 "assets/AssetManifest.bin": "49a7ed659a6ba43b16245410ee80229d",
+=======
+"assets/AssetManifest.bin": "55d21173d9a94c3392a31cbef8298927",
+>>>>>>> origin/main
 "assets/fonts/NavIcons.ttf": "9df5033e04e49015f66839996462c888",
 "assets/fonts/SocialMediaIcons.ttf": "7e4b0cd87e111d022c75063514ae06e6",
 "assets/fonts/MaterialIcons-Regular.otf": "f23ad55910db4df8277a887c7d98ec3b",
 "assets/fonts/NotoColorEmoji-Regular.ttf": "0253a4cac09bf2b409c2e19b08e21173",
+<<<<<<< HEAD
 "assets/assets/images/features_icons/cloud_feature.png": "bb529b71d2fa50d8dc822cda034fbd39",
 "assets/assets/images/features_icons/ai_feature.png": "baf2dcfab463106b2ddea7b3ddde20a7",
 "assets/assets/images/features_icons/mailing_feature.png": "8fa4ee162d81e853acda369f3e7ebac7",
@@ -815,13 +837,26 @@ const RESOURCES = {"flutter_bootstrap.js": "3a5b55d63e847b5d9d53e16868079860",
 "assets/assets/images/hacker_rank_logo.png": "d55365a1981ce67b2b8ba631c499e0c9",
 "assets/assets/images/ideen_logo.png": "258c6c27f78cfcdf388c803dc8727282",
 "assets/assets/images/dhl_logo.png": "2086544d222a9f1f416c770dde19aea4",
+=======
+"assets/assets/images/hacker_rank_logo.png": "d55365a1981ce67b2b8ba631c499e0c9",
+"assets/assets/images/ideen_logo.png": "258c6c27f78cfcdf388c803dc8727282",
+"assets/assets/images/cloud_feature.png": "69594f65548f88466ea607cabb850552",
+"assets/assets/images/dhl_logo.png": "2086544d222a9f1f416c770dde19aea4",
+"assets/assets/images/ai_feature.png": "baf2dcfab463106b2ddea7b3ddde20a7",
+"assets/assets/images/mailing_feature.png": "8fa4ee162d81e853acda369f3e7ebac7",
+"assets/assets/images/verified_feature.png": "6a91f23a1699ccc886f680fa16f9ed60",
+>>>>>>> origin/main
 "assets/assets/images/single_ring_1.png": "5d0784300f79497a08c71126eb547a63",
 "assets/assets/images/andela_logo_image.png": "39fd77cb0d015964c32cf23c64a5bc1d",
 "assets/assets/images/nu_logo.png": "6ac8860a7dc766d7c63d61e1d0cf84dd",
 "assets/assets/images/cards_1.png": "8f320f213f2d35deeb8a967551a04bed",
 "assets/assets/images/stz_preview.png": "872fa0c0870d2a8c14f26d9b54452326",
 "assets/assets/images/borderless_logo.svg": "defbd40dd559f2a13582496f75f0d149",
+<<<<<<< HEAD
 "assets/assets/images/abogalia_ex_image_1_temp.png": "61e98776798707da82159d77081f09f2",
+=======
+"assets/assets/images/abogalia_ex_image_1_temp.png": "d04ddf73e99afca99a5301df9c5ff97f",
+>>>>>>> origin/main
 "assets/assets/images/profile_image_decorated.png": "31f5d2a4227886f9979d3b3e61c09bfa",
 "assets/assets/images/abogalia_temp_banner_mobile.png": "c89784e151fa032b0ae49864fde81ec7",
 "assets/assets/images/stack_overflow_logo.png": "1158d15efcd11e4d6d395daebb7d6f88",
@@ -833,17 +868,30 @@ const RESOURCES = {"flutter_bootstrap.js": "3a5b55d63e847b5d9d53e16868079860",
 "assets/assets/images/dell_logo.png": "c0c82ccf105159c0c3ca540fe4d18bdf",
 "assets/assets/images/3d_vis_preview_3.gif": "71ca78ccef6ebbb479868b1b6b371e69",
 "assets/assets/images/abogalia_temp_banner.png": "0863d545d62cd8b3e366a63506dafbf3",
+<<<<<<< HEAD
 "assets/assets/images/web_development_icon_group.png": "8efc180ddb446e7f4dab9cb571d04a78",
 "assets/assets/images/profile_1_squared.jpg": "0ce3a0402fe4585c70891517c0edd66b",
 "assets/assets/images/game_development_icon_group.png": "21d0741fde2b70fc876844f1d96f8f01",
 "assets/assets/images/luxoft_logo.png": "9f78a3aaf7d5cab3da6dc77350e8f6d6",
+=======
+"assets/assets/images/auth_and_sec_feature.png": "7154cf83c38f8ff448e06c34a5c103ac",
+"assets/assets/images/web_development_icon_group.png": "8efc180ddb446e7f4dab9cb571d04a78",
+"assets/assets/images/profile_1_squared.jpg": "0ce3a0402fe4585c70891517c0edd66b",
+"assets/assets/images/analytics_feature.png": "dd7b395280471280a27970290077f759",
+"assets/assets/images/game_development_icon_group.png": "21d0741fde2b70fc876844f1d96f8f01",
+"assets/assets/images/luxoft_logo.png": "9f78a3aaf7d5cab3da6dc77350e8f6d6",
+"assets/assets/images/dual_architecture_feature.png": "dd2b455d2925f791294da680f951e537",
+>>>>>>> origin/main
 "assets/assets/images/codewars_logo.png": "00ec1fd9f2466111dc6a104e882b16b4",
 "assets/assets/images/platzi_logo.png": "7cf010ec2fbabd7745bfa8a5269038e9",
 "assets/assets/images/abogalia_ex_image_2_temp.png": "a0861e3ce6f8ef05327444d6dfcef135",
 "assets/assets/images/disk_1.png": "5e04bccfa4967b83c9f4a5ca30707446",
+<<<<<<< HEAD
 "assets/assets/js/sketchfab.js": "c0ed2f703d0ae1c35c16d7a81e81ba79",
 "assets/assets/webpages/test_container.html": "04955227b9906a60acf154b16e09c188",
 "assets/assets/webpages/3d_vis_body.html": "0f9abdaa864eefa369ec718e3f91386c",
+=======
+>>>>>>> origin/main
 "assets/assets/files/PRIMER%2520PUESTO%2520AUTONOMO.pdf": "cf837128997872d2e274876addf4fab1",
 "assets/assets/files/CV%2520-%2520Ricardo%2520Huerta.pdf": "b6e3b167c71ea153a01f156076de158a",
 "assets/assets/translations/en.json": "836285e3bf8b7b758f767c6fb12dcb86",
